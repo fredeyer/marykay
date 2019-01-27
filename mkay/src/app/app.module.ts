@@ -7,13 +7,15 @@ import { NavbarComponent } from './navbar/navbar.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './footer/footer.component';
 import { SliderComponent } from './slider/slider.component';
+import { CategorieComponent } from './categorie/categorie.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    SliderComponent
+    SliderComponent,
+    CategorieComponent
   ],
   imports: [
     NgbModule.forRoot(),
